@@ -9,7 +9,8 @@ Console.WriteLine();
 //    Console.WriteLine("Args: {0}", arg);
 //}
 // Get arguments using System.Environment.
-string[] theArgs = Environment.GetCommandLineArgs();foreach (string arg in theArgs)
+string[] theArgs = Environment.GetCommandLineArgs();
+foreach (string arg in theArgs)
 {
     Console.WriteLine("Arg: {0}", arg);
 }
@@ -25,7 +26,8 @@ Console.ReadLine();
 return -1;
 
 //Additional Members of the System.Environment Class demo
-static void ShowEnvironmentDetails(){
+static void ShowEnvironmentDetails()
+{
     // Print out the drives on this machine,
     // and other interesting details.
     foreach (string drive in Environment.GetLogicalDrives())
@@ -36,5 +38,7 @@ static void ShowEnvironmentDetails(){
     Console.WriteLine("Number of processors: {0}",
     Environment.ProcessorCount);
     Console.WriteLine(".NET Core Version: {0}",
-    Environment.Version);    Console.WriteLine("Machine Name: {0}", Environment.MachineName);}
+    Environment.Version);
+    Console.WriteLine("Machine Name: {0}", Environment.MachineName);
+}
 
