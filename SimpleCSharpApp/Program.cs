@@ -8,6 +8,7 @@ Console.WriteLine();
 //{
 //    Console.WriteLine("Args: {0}", arg);
 //}
+
 // Get arguments using System.Environment.
 string[] theArgs = Environment.GetCommandLineArgs();
 foreach (string arg in theArgs)

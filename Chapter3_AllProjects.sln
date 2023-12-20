@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCSharpApp", "SimpleCS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleIO", "BasicConsoleIO\BasicConsoleIO.csproj", "{F11465E8-E152-44C7-A4E8-107257AC14E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{FA566920-23FF-482F-A9C1-9226812B573E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F11465E8-E152-44C7-A4E8-107257AC14E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11465E8-E152-44C7-A4E8-107257AC14E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11465E8-E152-44C7-A4E8-107257AC14E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA566920-23FF-482F-A9C1-9226812B573E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA566920-23FF-482F-A9C1-9226812B573E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA566920-23FF-482F-A9C1-9226812B573E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA566920-23FF-482F-A9C1-9226812B573E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
