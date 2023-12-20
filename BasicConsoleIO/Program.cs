@@ -21,6 +21,7 @@ static void GetUserData()
     Console.Beep(5000, 1000);
 }
 
+
 static void FormatNumericalData()
 {
     Console.WriteLine("The value 99999 in various formats:");
