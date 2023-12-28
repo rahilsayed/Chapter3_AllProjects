@@ -1,5 +1,6 @@
 ﻿Console.WriteLine("***** Basic Console I/O *****");
 GetUserData();
+FormatNumericalData();
 Console.ReadLine();
 
 static void GetUserData()
@@ -36,5 +37,3 @@ static void FormatNumericalData()
     Console.WriteLine("X format: {0:X}", 99999);
     Console.WriteLine("x format: {0:x}", 99999);
 }
-
-FormatNumericalData();
