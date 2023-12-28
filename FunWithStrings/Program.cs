@@ -19,7 +19,7 @@ static void BasicStringFunctionality()
     Console.WriteLine("firstName in uppercase: {0}", firstName.ToUpper());
     Console.WriteLine("firstName in lowercase: {0}", firstName.ToLower());
     Console.WriteLine("firstName contains the letter y?: {0}",
-    firstName.Contains("y"));
+    firstName.Contains('y'));
     Console.WriteLine("New first name: {0}", firstName.Replace("dy", ""));
     Console.WriteLine();
 }

@@ -4,6 +4,7 @@ short numb1 = 30000, numb2 = 30000;
 short answer = (short)Add(numb1, numb2);
 Console.WriteLine("{0} + {1} = {2}",
 numb1, numb2, answer);
+
 NarrowingAttempt();
 ProcessBytes();
 
@@ -15,6 +16,7 @@ static int Add(int x, int y)
 {
     return x + y;
 }
+
 static void NarrowingAttempt()
 {
     byte myByte = 0;
@@ -24,9 +26,7 @@ static void NarrowingAttempt()
     Console.WriteLine("Value of myByte: {0}", myByte);
 }
 
-
-
-// another compiler error! although valid narrowing, compiler still gives error as it overflows the bounds of this data type
+// another compiler error! although valid narrowing, compiler still gives error as it overflows the bounds of this datatype type
 //static void narrowingattempt()
 //{
 //    byte mybyte = 0;
@@ -44,6 +44,7 @@ static void ProcessBytes()
     // takes place.
     try
     {
+        //if checked not used, compiler will not throw exception and will result in loss of data.
         byte sum = checked((byte)Add(b1, b2));
         Console.WriteLine("sum = {0}", sum);
     }

@@ -1,5 +1,18 @@
 ﻿using System.Numerics;
 Console.WriteLine("***** Fun with Basic Data Types *****");
+LocalVarDeclarations();
+DefaultDeclarations();
+NewingDataTypesWith9();
+ObjectFunctionality();
+DataTypeFunctionality();
+BoolFunctionality();
+CharFunctionality();
+ParseFromStrings();
+ParseFromStringsWithTryParse();
+UseDatesAndTimes();
+UseBigInteger();
+DigitSeparators();
+BinaryLiterals();
 
 
 static void LocalVarDeclarations()
@@ -19,7 +32,6 @@ static void LocalVarDeclarations()
     Console.WriteLine();
 }
 
-LocalVarDeclarations();
 
 static void DefaultDeclarations()
 {
@@ -28,7 +40,6 @@ static void DefaultDeclarations()
     Console.WriteLine(myInt);
 }
 
-DefaultDeclarations();
 
 static void NewingDataTypes()
 {
@@ -55,7 +66,6 @@ static void NewingDataTypesWith9()
     Console.WriteLine();
 }
 
-NewingDataTypesWith9();
 
 
 static void ObjectFunctionality()
@@ -70,7 +80,6 @@ static void ObjectFunctionality()
     Console.WriteLine();
 }
 
-ObjectFunctionality();
 
 static void DataTypeFunctionality()
 {
@@ -87,10 +96,11 @@ static void DataTypeFunctionality()
     Console.WriteLine();
 }
 
-DataTypeFunctionality();
-
-Console.WriteLine("bool.FalseString: {0}", bool.FalseString);
-Console.WriteLine("bool.TrueString: {0}", bool.TrueString);
+static void BoolFunctionality()
+{
+    Console.WriteLine("bool.FalseString: {0}", bool.FalseString);
+    Console.WriteLine("bool.TrueString: {0}", bool.TrueString);
+}
 
 static void CharFunctionality()
 {
@@ -107,7 +117,6 @@ static void CharFunctionality()
     Console.WriteLine();
 }
 
-CharFunctionality();
 
 static void ParseFromStrings()
 {
@@ -124,7 +133,6 @@ static void ParseFromStrings()
     Console.WriteLine();
 }
 
-ParseFromStrings();
 
 static void ParseFromStringsWithTryParse()
 {
@@ -149,7 +157,6 @@ static void ParseFromStringsWithTryParse()
     Console.WriteLine();
 }
 
-ParseFromStringsWithTryParse();
 
 static void UseDatesAndTimes()
 {
@@ -169,7 +176,6 @@ static void UseDatesAndTimes()
     Console.WriteLine(ts.Subtract(new TimeSpan(0, 15, 0)));
 }
 
-UseDatesAndTimes();
 
 static void UseBigInteger()
 {
@@ -184,7 +190,6 @@ static void UseBigInteger()
     Console.WriteLine("Value of reallyBig is {0}", reallyBig);
 }
 
-UseBigInteger();
 
 static void DigitSeparators()
 {
@@ -204,7 +209,6 @@ static void DigitSeparators()
     Console.WriteLine(0x_00_00_FF);
 }
 
-DigitSeparators();
 
 static void BinaryLiterals()
 {
@@ -214,5 +218,3 @@ static void BinaryLiterals()
     Console.WriteLine("Thirty Two: {0}", 0b_0010_0000);
     Console.WriteLine("Sixty Four: {0}", 0b_0100_0000);
 }
-
-BinaryLiterals();
