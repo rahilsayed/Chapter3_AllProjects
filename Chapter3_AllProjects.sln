@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEnums", "FunWithEnum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithBitwiseOperations", "FunWithBitwiseOperations\FunWithBitwiseOperations.csproj", "{6E73A531-65A6-4C43-808B-7FD130DBCEC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "FunWithStructures\FunWithStructures.csproj", "{00C8A1BE-23B1-4E15-BD14-3F1B86ED6C2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6E73A531-65A6-4C43-808B-7FD130DBCEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E73A531-65A6-4C43-808B-7FD130DBCEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E73A531-65A6-4C43-808B-7FD130DBCEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C8A1BE-23B1-4E15-BD14-3F1B86ED6C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C8A1BE-23B1-4E15-BD14-3F1B86ED6C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C8A1BE-23B1-4E15-BD14-3F1B86ED6C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C8A1BE-23B1-4E15-BD14-3F1B86ED6C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
