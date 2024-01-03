@@ -90,6 +90,3 @@ ref struct DisposableRefStruct
         Console.WriteLine("Disposed!");
     }
 }
-
-//test
-//test2
